@@ -20,7 +20,7 @@ public class App {
 						
 			for (String name: map.keySet()) {
 			    String key = name.toString();
-			    String value = map.get(name).toString();
+			    String value = map.get(name).toString(); 
 			    System.out.println(key +":" + value);
 			}
 			
