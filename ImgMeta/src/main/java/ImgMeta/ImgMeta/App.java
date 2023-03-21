@@ -15,7 +15,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		try {
-			ImageInfo ii = new ImageInfo(new File("C:\\Tess4J\\469253_3349524100602_802427793_o.JPG"));
+			ImageInfo ii = new ImageInfo(new File("C:\\Tess4J\\469253_3349524100602_802427793_o.JPG"));//Path immagine
 			Map<String, String> map = ii.getMapInfo();
 						
 			for (String name: map.keySet()) {
