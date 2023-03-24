@@ -25,7 +25,7 @@ public class App {
 			    System.out.println(key +":" + value);
 			}
 			
-			Optional<GeoLocation> geoLocation = ii.getCoordinates();
+			Optional<GeoLocation> geoLocation = ii.getCoordinates(); 
 			
 			double lat;
 			double lon;
