@@ -224,26 +224,42 @@
 										<form  method="put" action="https://source-conv-bucket.s3.amazonaws.com/logo?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA5FPAP6OKHZPSYBXH%2F20230320%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230320T171550Z&X-Amz-Expires=180&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMSJIMEYCIQDp%2FzJSwXTsZbAU%2FTApomyWPP2bqfJTB5AILwTkXic5RQIhANgZ8iMDHCPvDZ0T7VgOOb0OLTGyXh1%2FFnL6GmRhmB8MKvICCHoQARoMOTA1MDk4Mjk0MTY0IgxuWq8qwwPQ%2FcY4booqzwIDApD%2FoNQUBeisK4Uv4gSTePQMTKpwUhDid20n1Kxw6X%2BS%2BDZKIzZmEAbej0Y6x6icpWq0lkJSsZKMtodtDntXr9HvN9ZxKKdp2ZcPFyikJSKDfgV2ZPVO6LZuR83N6QF3dHq7iqyrM8p7HJk6fM3UztUYvwLl1Lm3JMXKOJ5GF%2B99W%2FTGpZwiKpL4p2V3AhO7K91yCoUsCBqwxDE6xvEfIum5WgJhadyeOkA%2F1912VhSXIZAXBUrJtjd78gtWXYBJvEwNis6KVDSQwb3A%2BaEYJK%2FU1Zvhs0825iGJwT00tx0zXI95JkLK3abKQOYo6dot3Ful69rKMpGDftQSCMYCM7c%2BRn70F47h9PuvKtohH%2F6lTx4jDz14JGSbCyToqN18nfPfaFpyF%2BzN8Tym9h40s8kHeyl9zd1cgXT1S5RAuMTcvLEhYpscodegyccztDDFp%2BKgBjqdAZmMLg8w88GCJqxtOLZKHBGcfeRJ8mdifcqnxdj6A%2BuivNAHNuZFpfZib9f7dPI%2Bw2RnNtAfo0UGATy6WujR500O5kTXjkuQSE9sy0%2FRJifCfLxzRKFBt8jHCXqg4lxB2fuLWcflxeJteHaop6JFeJNMoGp2lu3MG%2BO4FmeeGCIdejTqX6Da8OVWLbtzKjObxXgVBAfCHAwlLKSW3bI%3D&X-Amz-Signature=9f3f1c3dde3a4e937abb4d174d6ca725bd87e350af4f1fc4d37858677e39795f" >
 										  <input type="file" id="myFile" name="filename">
 										  
-										   Key to upload: 
-											<input type="input"  name="fileName" id="fileName" value="" /><br />
-											<!-- <input type="input"  name="key" value="datafile/math3/" /><br />     -->
-											<!-- <input type="hidden" name="acl" value="public-read" /> -->
-											<!-- <input type="hidden" name="success_action_redirect" value="http://aztopia-file-store.s3.amazonaws.com/successful_upload.html" /> -->
-											Content-Type: 
-											<!-- <input type="input"  name="Content-Type" value="image/jpeg" /><br /> -->
-											<!-- <input type="hidden" name="x-amz-meta-uuid" value="14365123651274" />  -->
-											<!-- <input type="hidden" name="x-amz-server-side-encryption" value="AES256" />  -->
-											<input type="text" id="X-Amz-Credential"  name="X-Amz-Credential" value="" />
-											<input type="text" id="X-Amz-Algorithm"   name="X-Amz-Algorithm" value="" />
-											<input type="text" id="X-Amz-Date"   name="X-Amz-Date" value="" />
-
-											Tags for File: 
-											<!-- <input type="input"  name="x-amz-meta-tag" value="" /><br /> -->
-											<!--<input type="hidden" name="Policy" value='asdfasfadsfasdfasdfasrheghjfghjfhhjfgjghxxxxxxxxxxxxxxxxxxxxxxxxxxxx==' />-->
-											<input type="text" id="X-Amz-Signature" name="X-Amz-Signature" value="" />
-											<input type="text" id="X-Amz-SignedHeaders" name="X-Amz-SignedHeaders" value="" />
-											<input type="text" id="X-Amz-Expires" name="X-Amz-Expires" value="" />
-											<input type="text" id="X-Amz-Security-Token" name="X-Amz-Security-Token" value="" />
+										  <table border=0>
+										  	<tr>
+										  		<td>Key to upload:
+										  		</td>
+										  		<td><input type="input"  name="fileName" id="fileName" value="" /><br />
+										  		</td>
+										  	</tr>
+										  	<tr>
+										  		<td>Content-Type: 
+										  		</td>
+										  		<td>
+											  		<!-- <input type="input"  name="key" value="datafile/math3/" /><br />     -->
+													<!-- <input type="hidden" name="acl" value="public-read" /> -->
+													<!-- <input type="hidden" name="success_action_redirect" value="http://aztopia-file-store.s3.amazonaws.com/successful_upload.html" /> -->
+													
+													<!-- <input type="input"  name="Content-Type" value="image/jpeg" /><br /> -->
+													<!-- <input type="hidden" name="x-amz-meta-uuid" value="14365123651274" />  -->
+													<!-- <input type="hidden" name="x-amz-server-side-encryption" value="AES256" />  -->
+													<input type="text" id="X-Amz-Credential"  name="X-Amz-Credential" value="" /><br />
+													<input type="text" id="X-Amz-Algorithm"   name="X-Amz-Algorithm" value="" /><br />
+													<input type="text" id="X-Amz-Date"   name="X-Amz-Date" value="" /><br />
+										  		</td>
+										  	</tr>
+										  	<tr>
+										  		<td>Tags for File:
+										  		</td>
+										  		<td>
+											  		<!-- <input type="input"  name="x-amz-meta-tag" value="" /><br /> -->
+													<!--<input type="hidden" name="Policy" value='asdfasfadsfasdfasdfasrheghjfghjfhhjfgjghxxxxxxxxxxxxxxxxxxxxxxxxxxxx==' />-->
+													<input type="text" id="X-Amz-Signature" name="X-Amz-Signature" value="" /><br />
+													<input type="text" id="X-Amz-SignedHeaders" name="X-Amz-SignedHeaders" value="" /><br />
+													<input type="text" id="X-Amz-Expires" name="X-Amz-Expires" value="" /><br />
+													<input type="text" id="X-Amz-Security-Token" name="X-Amz-Security-Token" value="" /><br />
+												</td>
+										  	</tr>
+										  </table>
 											
 											File: 
 											<!--<input type="file"   name="file" /> <br />-->
