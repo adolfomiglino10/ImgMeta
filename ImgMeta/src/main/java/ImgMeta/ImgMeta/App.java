@@ -13,7 +13,7 @@ import com.drew.lang.GeoLocation;
 public class App {
 	//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
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		
 		try {
 			ImageInfo ii = new ImageInfo(new File("C:\\Tess4J\\469253_3349524100602_802427793_o.JPG"));//Path immagine
